@@ -3,8 +3,8 @@ local addon = CreateFrame('Frame', 'qChatBar', qChatBar)
 addon:SetScript('OnEvent', function(self, event, ...) self[event](self, event, ...) end)
 addon:RegisterEvent('ADDON_LOADED')
 
-local texture = "Interface\\Addons\\qChatBar\\media\\normTex"
-local glowtex = "Interface\\Addons\\qChatBar\\media\\glowTex"
+local texture = "Interface\\Addons\\ElvUI_ChatBar\\media\\normTex"
+local glowtex = "Interface\\Addons\\ElvUI_ChatBar\\media\\glowTex"
 
 --Mover
 local qChatBarMover = CreateFrame("Frame","qChatBarMover", UIParent)
